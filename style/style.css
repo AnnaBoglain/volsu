@@ -1,0 +1,1587 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.fon {
+  background-color: #ffefdd;
+  width: 100%;
+}
+
+.volsu {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100%;
+  background-size: cover;
+  height: 1080px;
+}
+
+.p_prof {
+  color: #ee0000;
+}
+
+.menu {
+  display: flex;
+  color: #E5E2E5;
+  margin-left: 585px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d9b8ff;
+}
+
+li {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.menu_li {
+  margin-left: 75px;
+}
+
+h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 138.8%;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 150px;
+  margin-top: 219px;
+}
+
+.header_p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 138.8%;
+  /* or 44px */
+  color: #EAEAEA;
+  margin-left: 150px;
+  margin-top: 9px;
+}
+
+.page_1 {
+  display: flex;
+}
+
+.volsu_img {
+  margin-left: 277px;
+  margin-top: 225px;
+}
+
+.volsu_img_animate {
+  position: absolute;
+  top: 125px;
+  left: 1025px;
+  transition: all linear 0.25s;
+  -webkit-transition: all linear 0.25s;
+}
+
+.volsu_img_animate:hover {
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.background_2 {
+  position: absolute;
+  top: 1020px;
+}
+
+.volsu_mes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.volsu_mesta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.volsu_mesta_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  align-items: center;
+}
+
+.volsu_mesta_p2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.volsu_mesta_hr {
+  border: 5px solid #0037ff;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.div {
+  width: 350px;
+}
+
+.img_h2 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+h2 {
+  background-image: url("../img/h2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 74px;
+}
+
+.img_slide {
+  width: 1700px;
+  height: 800px;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.work_mobile {
+  display: none;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.table {
+  width: 90%;
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-collapse: collapse;
+  outline: 3px solid #4400ff;
+  font-size: 15px;
+  background: #fff !important;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 7px;
+  background: #b595ff;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #b595ff;
+}
+
+.table td {
+  padding: 10px;
+  padding-bottom: 20px;
+  border: none;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 15px;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #c0ddff !important;
+}
+
+.ege_pozition {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ege_li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+ul {
+  text-align: center;
+}
+
+.ege_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.img_position {
+  width: 350px;
+  height: 50px;
+}
+
+.img_position2 {
+  margin-left: 10px;
+  width: 500px;
+  height: 50px;
+}
+
+.img_position3 {
+  width: 550px;
+  height: 50px;
+  margin-left: 0px;
+}
+
+.img_position4 {
+  width: 230px;
+  height: 50px;
+}
+
+.img_mesta {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards_str {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 10px 5px 5px rgb(134, 134, 134);
+}
+
+.one {
+  background: rgba(143, 0, 255, 0.3);
+}
+
+.two {
+  background: rgba(255, 153, 0, 0.3);
+}
+
+.three {
+  background: rgba(189, 0, 255, 0.3);
+}
+
+.four {
+  background: rgba(0, 102, 255, 0.3);
+}
+
+.five {
+  background: rgba(0, 255, 25, 0.3);
+}
+
+.six {
+  background: rgba(0, 209, 255, 0.3);
+}
+
+.seven {
+  background: rgba(255, 245, 16, 0.3);
+}
+
+.eight {
+  background: rgba(0, 255, 209, 0.3);
+}
+
+.nine {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+.card_h3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 500px;
+}
+
+.cards_h3 {
+  padding-top: 26px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+  width: 310px;
+}
+
+.mat_ob {
+  width: 360px;
+  font-size: 28px;
+}
+
+.bakl {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3C3C3C;
+  padding-top: 11px;
+}
+
+.cod {
+  font-family: "Oswald";
+  font-size: 25px;
+}
+
+.card_p {
+  padding-top: 11px;
+  padding-left: 29px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 361px;
+}
+
+.card_p_5 {
+  margin-top: 80px;
+}
+
+.card_img {
+  max-width: 120%;
+  max-height: 120%;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #68e1ff;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+}
+
+.card_detailed {
+  background: #0037FC;
+  border-radius: 20px;
+  width: 186px;
+  height: 40px;
+  border: #0037FC;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.card_a {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.card_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.position_modal {
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  position: fixed; /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* цвет фона */
+  z-index: 1050;
+  opacity: 0; /* по умолчанию модальное окно прозрачно */
+  transition: opacity 200ms ease-in; /* анимация перехода */
+  pointer-events: none; /* элемент невидим для событий мыши */
+  margin: 0;
+  padding: 0;
+}
+
+/* при отображении модального окно */
+.modal:target {
+  opacity: 1; /* делаем окно видимым */
+  pointer-events: auto; /* элемент видим для событий мыши */
+  overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+  position: relative;
+  width: 1000px;
+  margin: 10px;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1100px;
+    margin: 30px auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.6rem;
+  outline: 0;
+  width: 1000px;
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 5px solid #eceeef;
+  border-radius: 5px;
+  background-color: #cfa6ff;
+}
+
+.modal-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* свойства для кнопки "Закрыть" */
+.close {
+  float: right;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex: 1 1 auto;
+  padding: 15px;
+  overflow: auto;
+}
+
+.modal-body-div-p {
+  margin: 20px;
+}
+
+ol {
+  margin-bottom: 30px;
+}
+
+.modal-body-div-li {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+.modal-body-div-img {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.min_bal {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  color: #8000FF;
+}
+
+.sms {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+  width: 1600px;
+  color: #000000;
+  padding-left: 30px;
+}
+
+.consultation {
+  display: flex;
+  justify-content: center;
+}
+
+.sposob_podachi_border {
+  background: linear-gradient(70deg, #8000FF, #FA00FF);
+  max-width: 1683px;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+.sposob_podachi {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 50px;
+}
+
+.sposob_podachi_border_2 {
+  background: linear-gradient(70deg, #8000FF, #FA00FF);
+  max-width: 85%;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.sposob_podachi_2 {
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+.sposob_podachi_border_3 {
+  background: linear-gradient(70deg, #FF0000, #FF9900);
+  max-width: 1683px;
+  padding: 5px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.sposob_podachi_3 {
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.sposob_podachi_border_4 {
+  background: linear-gradient(70deg, #8000FF, #FA00FF);
+  max-width: 760px;
+  height: 700px;
+  padding: 7px;
+  border-radius: 50px;
+  margin-left: 100px;
+}
+
+.sposob_podachi_4 {
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+.sposob_podachi_border_5 {
+  background: linear-gradient(70deg, #FF0000, #FF9900);
+  max-width: 1683px;
+  padding: 5px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.sposob_podachi_5 {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+.sposob_podachi_img {
+  width: 80%;
+  height: 300px;
+}
+
+.sposob_podachi_img_mobil {
+  display: none;
+}
+
+.holiday {
+  overflow: hidden;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.holiday2 {
+  margin-top: 50px;
+}
+
+.holiday2 dt, .holiday dd {
+  height: 2.5em;
+  padding: 0 0.625em 0 0.875em;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.holiday dt, .holiday dd {
+  height: 2.5em;
+  line-height: 2.5em;
+  padding: 0 0.625em 0 0.875em;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+dt {
+  width: 18%;
+  height: 100px;
+  float: left;
+  clear: right;
+  background: rgb(34, 97, 195);
+  background: linear-gradient(295deg, rgb(34, 97, 195) 0%, rgb(253, 45, 252) 100%);
+  font-weight: bold;
+  border-radius: 100px;
+  font-size: 25px;
+  box-shadow: 10px 5px 5px rgb(134, 134, 134);
+  border: 3px solid;
+  border-color: white;
+  text-align: center;
+}
+
+dd {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 0.5125em;
+  border: 1px solid #BECFC7;
+  border-left: none;
+  border-radius: 100px;
+  font-size: 25px;
+  background-color: white;
+}
+
+.dd_p {
+  margin-left: 400px;
+}
+
+.dd_p2 {
+  margin-top: 40px;
+  margin-left: 400px;
+}
+
+.dd_p_documents {
+  height: 12.5em;
+  align-items: center;
+}
+
+.dt_p {
+  color: white;
+}
+
+.dt_p2 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.consultation_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.podacha_mobile {
+  display: none;
+}
+
+.consultation_img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.tel_a {
+  color: #230429;
+}
+
+.consultation_p_h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #0D0C0C;
+  padding-left: 50px;
+}
+
+.consultation_fio {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+  margin-left: 118px;
+}
+
+.consultation_p {
+  max-width: 663px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-left: 118px;
+  margin-bottom: 80px;
+}
+
+.consultation_div_img {
+  margin-left: 118px;
+  margin-bottom: 15px;
+}
+
+.div_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.back2 {
+  background-image: url("../img/");
+}
+
+.back {
+  background-image: url("../img/Group 34.png");
+  background-repeat: no-repeat;
+  background-size: 97%;
+}
+
+.podacha_img {
+  width: 1400px;
+  margin-left: 200px;
+  height: 1000px;
+}
+
+.block {
+  display: flex;
+  max-width: 1860px;
+  flex-direction: row;
+  margin: 80px;
+  margin-left: 0;
+  background-image: url("../img/background_зкшуь.png");
+}
+
+.maps {
+  width: 710px;
+  height: 690px;
+  margin-top: 8px;
+  margin-left: 110px;
+}
+
+.maps_mobile {
+  display: none;
+}
+
+.addres {
+  margin-left: 100px;
+}
+
+.bus {
+  max-width: 400px;
+  margin-left: 51px;
+}
+
+.block2_2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bus_p {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.bus_tr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background-image: url("../img/footer.png");
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.social_media_img {
+  width: 80px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  margin: 40px;
+}
+
+.qr_img {
+  width: 130px;
+}
+
+.footer_p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #C6C6C6;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.footer_li {
+  margin-left: 80px;
+}
+
+.contact_link_a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 425px) {
+  .menu {
+    display: none;
+    width: 0px;
+    margin: 0;
+  }
+  header {
+    width: 100%;
+  }
+  .volsu {
+    height: 780px;
+  }
+  .page_1 {
+    flex-direction: column;
+  }
+  .volsu_img {
+    width: 230px;
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 65px;
+  }
+  .volsu_img_animate {
+    top: 320px;
+    left: 70px;
+    transition: all linear 0.25s;
+    -webkit-transition: all linear 0.25s;
+    width: 320px;
+    margin: 0;
+  }
+  h1 {
+    font-size: 50px;
+    margin-left: 15px;
+    margin-top: 120px;
+    text-align: center;
+  }
+  .header_p {
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .background_2 {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .volsu_mes {
+    position: relative;
+    bottom: 46px;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .volsu_mesta_p {
+    font-size: 50px;
+  }
+  .volsu_mesta_hr {
+    width: 200px;
+    border: 2px solid #0037ff;
+  }
+  .volsu_mesta_p2 {
+    font-size: 20px;
+  }
+  .img_h2 {
+    background-image: none;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #99afff;
+  }
+  h2 {
+    font-size: 30px;
+    background-image: none;
+    background-color: #99afff;
+  }
+  .work {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .work_mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .table {
+    width: 340px;
+  }
+  .ege_p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .ege_li {
+    text-align: center;
+    font-size: 15px;
+  }
+  .ege_img_voscl {
+    width: 10%;
+    margin-right: 40px;
+  }
+  .img_mesta {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .cards_str {
+    flex-direction: column;
+    align-items: center;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 340px;
+    margin: 0;
+    margin-top: 15px;
+    height: 400px;
+  }
+  .cards_h3 {
+    padding-left: 15px;
+    font-size: 25px;
+    width: 220px;
+  }
+  .card_p {
+    font-size: 15px;
+    width: 300px;
+  }
+  .card_img {
+    width: 120px;
+    height: 120px;
+  }
+  .bakl {
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+  }
+  .btn {
+    width: 90px;
+    border-radius: 10px;
+  }
+  .card_a {
+    font-size: 15px;
+  }
+  .five {
+    height: 500px;
+  }
+  .card_p_5 {
+    margin-top: 120px;
+  }
+  .sposob_podachi_img {
+    width: 300px;
+    height: 100px;
+  }
+  .sposob_podachi_img {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .sposob_podachi_img_mobil {
+    display: block;
+    width: 110%;
+    margin-left: 50px;
+  }
+  .holiday {
+    overflow: hidden;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .holiday2 {
+    margin-top: 50px;
+  }
+  .holiday2 dt, .holiday dd {
+    height: 5.5em;
+    padding: 0 0.625em 0 0.875em;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .holiday dt, .holiday dd {
+    height: 5.5em;
+    line-height: 2.5em;
+    padding: 0 0.625em 0 0.875em;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  dt {
+    width: 18%;
+    float: left;
+    clear: right;
+    background: rgb(34, 97, 195);
+    background: linear-gradient(295deg, rgb(34, 97, 195) 0%, rgb(253, 45, 252) 100%);
+    font-weight: bold;
+    border-radius: 100px;
+    font-size: 8px;
+    box-shadow: 10px 5px 5px rgb(134, 134, 134);
+    border: 2px solid;
+    border-color: white;
+    text-align: center;
+  }
+  dd {
+    width: 100%;
+    margin-left: 0;
+    border: 1px solid #BECFC7;
+    border-left: none;
+    border-radius: 30px;
+    font-size: 12px;
+    background-color: white;
+  }
+  .dd_p {
+    margin-left: 90px;
+  }
+  .dd_p2 {
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+  .dd_p_documents {
+    height: 15.5em;
+    align-items: center;
+  }
+  .dt_p {
+    color: white;
+  }
+  .dt_p2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+  .sposob_podachi_border_3 {
+    background: linear-gradient(70deg, #FF0000, #FF9900);
+    width: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .sposob_podachi_3 {
+    background: #ffffff;
+    border-radius: 30px;
+  }
+  .sms {
+    font-size: 15px;
+    width: 310px;
+  }
+  .modal {
+    width: 374px;
+  }
+  .podacha_img {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .podacha_mobile {
+    display: block;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .sposob_podachi_border_5 {
+    background: linear-gradient(70deg, #FF0000, #FF9900);
+    max-width: 350px;
+    padding: 3px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .sposob_podachi_5 {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+  .sposob_podachi_border_2 {
+    max-width: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .sposob_podachi_2 {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+  .sposob_podachi_border {
+    width: 350px;
+    margin-left: 5px;
+  }
+  .consultation_p_h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .consultation_img {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .consultation_div {
+    flex-direction: column;
+  }
+  .consultation_div_img {
+    margin: 10px;
+    width: 200px;
+  }
+  .consultation_fio {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .consultation_p {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .losev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+  }
+  .kornauhova {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+  }
+  .block {
+    flex-direction: column;
+    background-image: none;
+    margin-top: 20px;
+    width: 375px;
+    margin: 0;
+  }
+  .maps_mobile {
+    display: block;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .maps {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+  .sposob_podachi_border_4 {
+    display: none;
+    width: 375px;
+    margin: 0;
+  }
+  .addres {
+    font-size: 15px;
+    margin: 10px;
+    width: 350px;
+  }
+  .block2 {
+    width: 350px;
+  }
+  .priemnaya_comissia_img {
+    width: 340px;
+    margin: 15px;
+  }
+  .block2_2 {
+    flex-direction: column;
+  }
+  .bus_p {
+    width: 320px;
+  }
+  .bus_tr {
+    width: 320px;
+    font-size: 15px;
+  }
+  .img_bus {
+    width: 150px;
+  }
+  .bus {
+    margin-left: 25px;
+  }
+  .footer {
+    width: 350px;
+  }
+  .qr {
+    display: none;
+    margin: 0;
+  }
+  .social_media_img {
+    width: 50px;
+  }
+  .footer_li {
+    margin: 0;
+    font-size: 20px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .footer_li {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+  }
+  .contact {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .footer_p {
+    margin: 10px;
+    font-size: 15px;
+  }
+  .modal-dialog {
+    position: relative;
+    width: 300px;
+    margin: 10px;
+  }
+  /* свойства для блока, содержащего контент модального окна */
+  /* свойства для заголовка модального окна */
+}
+@media only screen and (max-width: 425px) and (min-width: 576px) {
+  .modal-dialog {
+    max-width: 350px;
+    margin: 30px auto; /* для отображения модального окна по центру */
+  }
+}
+@media only screen and (max-width: 425px) {
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    outline: 0;
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 425px) and (min-width: 768px) {
+  .modal-content {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+@media only screen and (max-width: 425px) {
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 5px solid #eceeef;
+    border-radius: 5px;
+    background-color: #cfa6ff;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .modal-body {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .volsu_img_animate {
+    left: 35px;
+  }
+  .work_mobile {
+    width: 375px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 45px;
+    margin-left: 0px;
+  }
+  .volsu_img_animate {
+    left: 50px;
+    top: 320px;
+    width: 280px;
+  }
+  .volsu_img {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 70px;
+  }
+  .work_mobile_img {
+    width: 300px;
+  }
+  .work_mobile {
+    width: 320px;
+  }
+  .table {
+    width: 320px;
+  }
+  .table td {
+    padding: 0;
+  }
+  .table th {
+    padding: 0;
+  }
+  th {
+    padding: 0;
+  }
+  .sposob_podachi_img_mobil {
+    margin: 0;
+  }
+  .sposob_podachi_border {
+    width: 320px;
+    margin: 0;
+  }
+  .podacha_img {
+    width: 320px;
+  }
+  .podacha_mobile {
+    width: 320px;
+    margin: 0;
+  }
+  .dd_p_documents {
+    height: 17.5em;
+    align-items: center;
+  }
+  .holiday dd {
+    height: 7.5em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .volsu_img_animate {
+    left: 20px;
+    top: 340px;
+    width: 280px;
+  }
+  .card {
+    width: 290px;
+  }
+  .dd_p {
+    margin-left: 30px;
+    margin-top: 35px;
+  }
+  .dd_p2 {
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+  dt {
+    width: 35%;
+  }
+  .holiday dt {
+    margin-left: 20px;
+    height: 3.5em;
+  }
+  .holiday2 dt {
+    margin-left: 20px;
+    height: 3.5em;
+  }
+  dd {
+    width: 90%;
+  }
+  .dd_p_documents {
+    height: 20.2em;
+  }
+  .holiday dd {
+    height: 10.5em;
+  }
+  .sposob_podachi_border_3 {
+    width: 300px;
+  }
+  .sms {
+    width: 280px;
+  }
+  .sposob_podachi_border_2 {
+    max-width: 320px;
+  }
+  .consultation_fio {
+    font-size: 15px;
+  }
+  .consultation_p {
+    font-size: 15px;
+  }
+  .maps_mobile {
+    display: block;
+    margin-left: 0px;
+    width: 320px;
+  }
+  .block {
+    width: 310px;
+  }
+  .block2 {
+    width: 310px;
+  }
+  .addres {
+    font-size: 15px;
+    margin: 10px;
+    width: 300px;
+  }
+  .priemnaya_comissia_img {
+    width: 300px;
+  }
+  .bus_tr {
+    width: 300px;
+  }
+  .bus_p {
+    width: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
